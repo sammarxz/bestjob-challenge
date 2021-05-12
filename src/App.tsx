@@ -1,21 +1,18 @@
-import * as React from 'react';
+import * as React from 'react'
 
 interface Props {
-   name:
-    string
+  name: string
 }
 
 class App extends React.Component<Props> {
   render() {
-    const { name } = this.props;
+    const { name } = this.props
     return (
       <>
-        <h1 className="text-4xl text-white bg-gray-400">
-          Hello {name}
-        </h1>
+        <h1 className="text-4xl text-white bg-gray-400">Hello {name}</h1>
       </>
-    );
+    )
   }
 }
 
-export default App;
+export default App
