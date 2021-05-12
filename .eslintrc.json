@@ -6,7 +6,9 @@
   },
   "env": {
     "es6": true,
-    "browser": true
+    "browser": true,
+    "jest": true,
+    "node": true
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
