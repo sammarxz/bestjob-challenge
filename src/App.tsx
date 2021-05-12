@@ -1,18 +1,7 @@
-import * as React from 'react'
+import React from 'react'
 
-interface Props {
-  name: string
-}
+import { Main } from './components'
 
-class App extends React.Component<Props> {
-  render() {
-    const { name } = this.props
-    return (
-      <>
-        <h1 className="text-4xl text-white bg-gray-400">Hello {name}</h1>
-      </>
-    )
-  }
-}
+const App = () => <Main />
 
 export default App
