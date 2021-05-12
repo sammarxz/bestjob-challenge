@@ -25,6 +25,8 @@
     "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.13.0",
+    "@snowpack/app-scripts-react": "^2.0.1",
     "@snowpack/plugin-build-script": "^2.1.0",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
