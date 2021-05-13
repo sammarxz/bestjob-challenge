@@ -1,20 +1,19 @@
 import React from 'react'
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 
 import { Main } from './'
 
 describe('<Main />', () => {
-  it('should render the heading', () => {
-    render(<Main />)
+  it('should render the <h1> as children of component', () => {
+    const { container, getByText } = render(
+      <Main>
+        <h1>BestJob</h1>
+      </Main>
+    )
 
-    expect(
-      screen.getByRole('heading', { name: /bestJob/i })
-    ).toBeInTheDocument()
-  })
-
-  it('should render correctly', () => {
-    const { container } = render(<Main />)
-
-    expect(container.firstChild).toMatchSnapshot()
+    expect(getByText('BestJob')).toBeInTheDocument()
+    expect(container.firstChild).toMatchSnapshot(`
+      <h1>BestJob</h1>
+    `)
   })
 })
