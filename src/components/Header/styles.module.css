@@ -11,9 +11,9 @@
 .logo span {
   position: absolute;
   top: 50%;
-  left: 130px;
+  left: 140px;
   transform: translate(-50%, -50%);
-  min-width: 160px;
+  min-width: 180px;
   text-align: center;
   font-style: italic;
 
