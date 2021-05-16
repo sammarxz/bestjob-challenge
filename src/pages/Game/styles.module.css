@@ -1,0 +1,22 @@
+.loading {
+  animation: loading 0.666666667s cubic-bezier(.69,-0.15,.33,1.24) infinite;
+}
+
+@media (min-width: 460px) {
+  .choice {
+    min-height: 260px;
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
