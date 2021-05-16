@@ -1,11 +1,20 @@
 import React from 'react'
 
-import { Main, Header } from './components'
+import { AppProvider } from './state/context'
 
-const App = () => (
-  <Main>
-    <Header />
-  </Main>
-)
+import Routes from './routes'
+import { Main, Header, Footer } from './components'
+
+const App = () => {
+  return (
+    <AppProvider>
+      <Header />
+      <Main>
+        <Routes />
+      </Main>
+      <Footer />
+    </AppProvider>
+  )
+}
 
 export default App
