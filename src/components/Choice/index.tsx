@@ -19,7 +19,7 @@ const Choice = ({ type, className }: ChoiceProps) => {
       case 'spock':
         return '🖖'
       default:
-        return '✊'
+        return '🤔'
     }
   }
 
