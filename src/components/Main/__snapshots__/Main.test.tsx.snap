@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the <h1> as children of component: 
+      <h1>BestJob</h1>
+     1`] = `
+<div
+  class="undefined flex flex-col flex-wrap items-center justify-center"
+>
+  <main
+    class="container max-w-4xl mx-auto px-4 md:px-8"
+  >
+    <h1>
+      BestJob
+    </h1>
+  </main>
+</div>
+`;
