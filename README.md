@@ -25,7 +25,7 @@ Then go to http://localhost:8080
 To create a production build:
 
 ```sh
-npm run build
+yarn build
 ```
 
 ## Testing
